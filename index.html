@@ -1,16 +1,85 @@
-### Hi there 👋
-
-<!--
-**rudymusic/rudymusic** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>APlayer</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./css/APlayer.min.css">
+    <link rel="stylesheet" type="text/css" href="./css/main.css">
+    <style>
+        h1 {
+            margin: 0;
+            font-weight: normal;
+            font-size: 40px;
+            letter-spacing: 1px;
+        }
+        h3 {
+            color: #999;
+            font-weight: normal;
+            letter-spacing: 1px;
+        }
+        hr {
+            display: block;
+            width: 7rem;
+            height: 1px;
+            margin: 2.5rem 0;
+            background-color: #eee;
+            border: 0;
+        }
+        a {
+            color: #08c;
+            text-decoration: none;
+        }
+        p {
+            font-size: 18px;
+        }
+        .landing{
+            padding: 10px;
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            align-items: center;
+            -webkit-box-pack: center;
+            -ms-flex-pack: center;
+            justify-content: center;
+            -webkit-box-orient: vertical;
+            -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+            flex-direction: column;
+            height: 100%;
+            -webkit-user-select: none;
+            user-select: none;
+        }
+    </style>
+    <script src="https://cdn.jsdelivr.net/npm/vconsole/dist/vconsole.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/hls.js/dist/hls.min.js"></script>
+    <script src="./js/APlayer.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/color-thief-don@2.0.2/src/color-thief.js"></script>
+</head>
+<body>
+    <div id="app">
+        <div class="landing">
+            <h1>
+                <a target="_blank" href="https://github.com/MoePlayer/APlayer">
+                    APlayer
+                </a>
+            </h1>
+            <h3>收藏一些自己喜欢的纯音乐</h3>
+            <div id="player5" class="aplayer"></div>
+            <div class="landing-buttons">
+                
+            </div>
+        </div>
+    </div>
+    
+    <script>
+        if (/mobile/i.test(window.navigator.userAgent)) {
+            new VConsole();
+        }
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery"></script>
+    <script src="./js/rudy.js"></script>
+</body>
+</html>
