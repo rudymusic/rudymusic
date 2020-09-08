@@ -11,12 +11,12 @@ const ap5 = new APlayer({
         name: 'Passi',
         artist: 'Bruno Bavota',
         url: '../music/Passi - Bruno Bavota.mp3',
-        cover: '../Passi.png'
+        cover: '../img/Passi.png'
     }, {
         name: 'Together At Last',
         artist: 'Alexis Ffrench',
         url: '../music/Together At Last - Alexis Ffrench.mp3',
-        cover: '../music/TogetherAtLast.jpg'
+        cover: '../img/TogetherAtLast.jpg'
     }, {
         name: '前前前世',
         artist: 'RADWIMPS',
