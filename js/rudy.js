@@ -8,17 +8,15 @@ const ap5 = new APlayer({
     listFolded: false,
     listMaxHeight: 80,
     audio: [{
-        name: '光るなら',
-        artist: 'Goose house',
-        url: 'https://cn-south-17-aplayer-46154810.oss.dogecdn.com/hikarunara.mp3',
-        cover: 'https://cn-south-17-aplayer-46154810.oss.dogecdn.com/hikarunara.jpg',
-        lrc: 'https://cn-south-17-aplayer-46154810.oss.dogecdn.com/hikarunara.lrc',
+        name: 'Passi',
+        artist: 'Bruno Bavota',
+        url: '../music/Passi - Bruno Bavota.mp3',
+        cover: '../Passi - Bruno Bavota.png'
     }, {
-        name: 'トリカゴ',
-        artist: 'XX:me',
-        url: 'https://cn-south-17-aplayer-46154810.oss.dogecdn.com/darling.mp3',
-        cover: 'https://cn-south-17-aplayer-46154810.oss.dogecdn.com/darling.jpg',
-        lrc: 'https://cn-south-17-aplayer-46154810.oss.dogecdn.com/darling.lrc',
+        name: 'Together At Last',
+        artist: 'Alexis Ffrench',
+        url: '../music/Together At Last - Alexis Ffrench.mp3',
+        cover: '../music/Together At Last - Alexis Ffrench.jpg'
     }, {
         name: '前前前世',
         artist: 'RADWIMPS',
