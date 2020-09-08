@@ -2,7 +2,7 @@ const ap5 = new APlayer({
     element: document.getElementById('player5'),
     mini: false,
     autoplay: false,
-    //lrcType: 3,
+    lrcType: 3,
     mutex: true,
     theme: '#e9e9e9',
     listFolded: false,
@@ -11,12 +11,14 @@ const ap5 = new APlayer({
         name: 'Passi',
         artist: 'Bruno Bavota',
         url: '../music/Passi - Bruno Bavota.mp3',
-        cover: '../img/Passi.png'
+        cover: '../img/Passi.png',
+        lrc: '../lrc/nolrc.lrc'
     }, {
         name: 'Together At Last',
         artist: 'Alexis Ffrench',
         url: '../music/Together At Last - Alexis Ffrench.mp3',
-        cover: '../img/TogetherAtLast.jpg'
+        cover: '../img/TogetherAtLast.jpg',
+        lrc: '../lrc/nolrc.lrc'
     }, {
         name: '前前前世',
         artist: 'RADWIMPS',
