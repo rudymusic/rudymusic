@@ -2,7 +2,7 @@ const ap5 = new APlayer({
     element: document.getElementById('player5'),
     mini: false,
     autoplay: false,
-    lrcType: 3,
+    //lrcType: 3,
     mutex: true,
     theme: '#e9e9e9',
     listFolded: false,
