@@ -19,5 +19,11 @@ const ap5 = new APlayer({
         url: '../music/Together At Last - Alexis Ffrench.mp3',
         cover: '../img/TogetherAtLast.jpg',
         lrc: '../lrc/nolrc.lrc'
+    }, {
+        name: '本当の优しさとは…',
+        artist: '渡辺俊幸',
+        url: '../music/本当の优しさとは… - 渡辺俊幸.mp3',
+        cover: '../img/本当の优しさとは… - 渡辺俊幸.jpg',
+        lrc: '../lrc/nolrc.lrc'
     }]
 });
