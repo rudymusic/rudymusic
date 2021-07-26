@@ -52,11 +52,15 @@
             -webkit-user-select: none;
             user-select: none;
         }
+        .aplayer-list {
+            max-height: 200px!important;
+            overflow: auto!important;
+        }
     </style>
-    <script src="https://cdn.jsdelivr.net/npm/vconsole/dist/vconsole.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/hls.js/dist/hls.min.js"></script>
+    <script src="./js/vconsole.min.js"></script>
+    <script src="./js/hls.min.js"></script>
     <script src="./js/APlayer.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/color-thief-don@2.0.2/src/color-thief.js"></script>
+    <script src="./js/color-thief.js"></script>
 </head>
 <body>
     <div id="app">
@@ -67,7 +71,7 @@
                 </a>
             </h1>
             <h3>收藏一些自己喜欢的纯音乐</h3>
-            <div id="player5" class="aplayer" style="overflow: overlay;"></div>
+            <div id="player5" class="aplayer"></div>
             <div class="landing-buttons">
                 
             </div>
@@ -76,5 +80,8 @@
 
     <script src="https://cdn.jsdelivr.net/npm/jquery"></script>
     <script src="./js/rudy.js"></script>
+    <script type="text/javascript">
+        
+    </script>
 </body>
 </html>
