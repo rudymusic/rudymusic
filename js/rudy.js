@@ -8,7 +8,7 @@ const ap5 = new APlayer({
     listFolded: false,
     listMaxHeight: 80,
     // 封面来自https://sm.ms网站图床
-    // url来自icloud共享
+    // url来自OneDrive共享
     audio: [{
         name: 'Take the Time',
         artist: 'Robin Spielberg',
